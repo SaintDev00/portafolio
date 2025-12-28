@@ -1,104 +1,83 @@
 <!DOCTYPE html>
 <html lang="es">
-<!DOCTYPE html>
-<html>
-<body>
-<button type="button" onclick="alert('Welcome To My Portfolio,In This Page I Have A Few Projects On Diferents Technologies')">Click Me</button>
-</body>
-</html>
-    
-    
-    
-    
-    
-    
-    <head>
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=2.0">
-    <title>Juan José Sanchez Ramirez - Portafolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 900px;
-            margin: 5 auto;
-            padding: 20px;
-            background-color: #f5f5f5;
-        }
-        
-        h1 {
-            color: #2c3e50;
-            text-align: center;
-        }
-        
-        h2 {
-            color: #34495e;
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            background: white;
-            border-radius: 9px;
-            overflow: hidden;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        
-        th {
-            background: #2E8B57;
-            color: white;
-            padding: 12px;
-            text-align: left;
-        }
-        
-        td {
-            padding: 12px;
-            border-bottom: 1px solid #ecf0f1;
-        }
-        
-        tr:hover {
-            background-color: #f8f9fa;
-        }
-        
-        a {
-            color: #66CDAA;
-            text-decoration: none;
-            font-size: 15px
-        }
-        
-        a:hover {
-            color: #FF00FF;
-            text-decoration: underline; 
-            background-color: gray;
-            border-radius: 8px;
-            padding:7.5px
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saint</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Juan José Sanchez Ramirez</h1>
-    <h2>Just A Tech</h2>
+    <div class="tont">
+    <header>
+        <div class="container">
+            <div class="logo">The Saint Labs</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="work.html">Proyects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <table>
-        <tr>
-            <th>Info</th>
-            <th>Enlace</th>
-            <th>Tecnología</th>
-        </tr>
-        
-        <tr>
-            <td>Everything on python</td>
-            <td><a href="https://github.com/Module-python" target="_blank">Ver Proyecto</a></td>
-            <td>Python</td>
-        </tr>  
-        <tr>
-            <td>Everything on html</td>
-            <td><a href="https://github.com/SaintDev00/crudscope" target="_blank">Ver Proyecto</a></td>
-            <td>Python</td>
-        </tr>  
-        
-        </tr>
-    </table>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi,  <span class="highlight">Im Juan</span></h1>
+                <h2>Full Stack Web Developer</h2>
+                <p>I Create Incredible Digital Experiences With Clean Code And Modern Design.</p>
+                <div class="hero-buttons">
+                    <a href="work.html" class="btn btn-primary">Ver Proyectos</a>
+                    <a href="contact.html" class="btn btn-secondary">Contáctame</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="intro">
+        <div class="container">
+            <h2 class="section-title">¿What Do I Do?</h2>
+            <div class="cards">
+                <div class="card">
+                    <div class="card-icon">💻</div>
+                    <h3>Web Development</h3>
+                    <p>Creation Of Modern, Responsive Websites Using The Latest Technologies</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🎨</div>
+                    <h3>UX Design</h3>
+                    <p>Intuitive And Attractive Interfaces Focused On The User Experience</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📱</div>
+                    <h3>Mobile Apss</h3>
+                    <p>High-Performance Native And Cross-Platform Mobile Applications</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>¿Ready To Work Together?</h2>
+            <p>Let's Turn Your Ideas Into Reality</p>
+            <a href="contact.html" class="btn btn-primary">Start A Project</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-home">
+            <p>&copy; 2024 My Portfolio. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/SaintDev00">GitHub</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+    </div>
 </body>
 </html>

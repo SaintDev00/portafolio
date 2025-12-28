@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saint</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">The Saint Labs</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="work.html">Proyects</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1 class="page-title">Contact Me</h1>
+            <p class="subtitle">¿Do you have a project in mind? Let's talk!</p>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <p>I am available for freelance projects, collaborations, or full-time positions. Please feel free to contact me.</p>
+                    
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon"></div>
+                            <div>
+                                <h3>Email</h3>
+                                <p>jqydjdj@gmail.com<j/p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon"></div>
+                            <div>
+                                <h3>Phone-Number</h3>
+                                <p>333-290-30-21</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon"></div>
+                            <div>
+                                <h3>Location</h3>
+                                <p>Medellin,Colombia</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon"></div>
+                            <div>
+                                <h3>Available</h3>
+                                <p>24hr</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-media">
+                        <h3>Follow Me</h3>
+                        <div class="social-buttons">
+                            <a href="#" class="social-btn">
+                                <span>GitHub</span>
+                            </a>
+                            <a href="#" class="social-btn">
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="#" class="social-btn">
+                                <span>Twitter</span>
+                            </a>
+                            <a href="#" class="social-btn">
+                                <span>Instagram</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <h2>Send Me A Message</h2>
+                        
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone-Number *</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">subject *</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-contact">
+            <p>&copy; 2024 My Portfolio. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/SaintDev00">GitHub</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('¡Gracias por tu mensaje! Te contactaré pronto.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>

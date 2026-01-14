@@ -68,9 +68,6 @@ nav a.active {
     background-size: cover;
 }
 
-
-
-
 .hero {
     
     width: 100%;
@@ -191,7 +188,7 @@ main {
 }
 
 .card {
-    background: rgba(60, 79, 149, 0.978);
+    background: rgba(255, 255, 255, 0.806);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgb(74, 94, 116);

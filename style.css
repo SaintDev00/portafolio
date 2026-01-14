@@ -421,11 +421,11 @@ main {
     color: rgb(0, 0, 0);
     font-size: 1.5rem;
     font-weight: bold;
-    background-image: url(./img/ho.jpeg);
+    background-image: url(./img/ho-removebg-preview.png);
     background-size: contain;
 
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
 }
 
 .project-image .image-placeholder2 {
@@ -437,11 +437,11 @@ main {
     color: rgb(0, 0, 0);
     font-size: 1.5rem;
     font-weight: bold;
-    background-image: url(./img/o.jpeg);
+    background-image: url(./img/o-removebg-preview.png);
     background-size: contain;
 
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
 }
 
 .project-image .image-placeholder3 {
@@ -453,11 +453,10 @@ main {
     color: rgb(0, 0, 0);
     font-size: 1.5rem;
     font-weight: bold;
-    background-image: url(./img/per.jpeg);
+    background-image: url(./img/Logo\ de\ PetLove\ con\ mascotas.png);
     background-size: contain;
-
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
 }
 
 .project-content h3 {

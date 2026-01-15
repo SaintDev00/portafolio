@@ -200,10 +200,32 @@ main {
     box-shadow: 0 10px 30px rgb(65, 93, 175);
 }
 
-.card-icon {
-    font-size: 3rem;
-    margin-bottom: 1rem;
+.card-icon{
+    background-image: url(./img/design.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    height: 200px;
 }
+
+
+.card-icon1{
+    background-image: url(./img/ux.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    height: 200px;
+}
+
+.card-icon2{
+    background-image: url(./img/mobile.jpeg);
+    background-size: cover;
+    background-position: containt;
+    border-radius: 20px;
+    height: 300px;
+}
+
+
 
 .card h3 {
     color: #141414;

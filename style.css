@@ -187,7 +187,7 @@ main {
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
+    gap: 60px;
     margin-top: 2rem;
 }
 
@@ -413,7 +413,7 @@ main {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2rem;
     margin: 3rem 0;
-    
+    padding: 10PX;
 }
 
 .project-card {
@@ -422,6 +422,7 @@ main {
     overflow: hidden;
     box-shadow: 12px 5px 15px rgb(134, 157, 227);
     transition: transform 0.3s;
+    padding: 20PX;
 }
 
 .project-card:hover {
@@ -439,6 +440,8 @@ main {
     font-size: 1.5rem;
     font-weight: bold;
     background-color: rgb(255, 255, 255);
+    gap: 1rem;
+    padding: 10px;
     /* background-image: url(./img/Hwang\ Aurora.jpeg); */
 }
 
@@ -453,7 +456,7 @@ main {
     font-weight: bold;
     background-image: url(./img/ho-removebg-preview.png);
     background-size: contain;
-
+    padding: 110px;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -469,7 +472,7 @@ main {
     font-weight: bold;
     background-image: url(./img/o-removebg-preview.png);
     background-size: contain;
-
+    padding: 100PX;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -645,6 +648,7 @@ main {
     box-shadow: 0 12px 12px black;
     width: 800px;
     margin: 0 auto;
+    margin-top: 50px;
 }
 
 .cta h2 {

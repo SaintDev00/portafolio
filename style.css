@@ -8,7 +8,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #000000;
-    background-image: url("./img/ChatGPT Image Dec 27, 2025, 10_38_28 PM.png");
+    background-image: url("./img/White\ Blue\ and\ Grey\ Modern\ Startup\ Pitch\ Deck\ Presentation.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -107,6 +107,10 @@ nav a.active {
     justify-content: center;
     flex-wrap: wrap;
 }
+
+
+
+
 
 /* ===== BOTONES ===== */
 .btn {
@@ -332,7 +336,7 @@ main {
 }
 
 .skill-card {
-    background-color: #179aff97;
+    background-color: #2b6b9d97;
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 10px 5px 15px rgb(228, 235, 255);
@@ -348,6 +352,13 @@ main {
     font-size: 3rem;
     margin-bottom: 1rem;
 }
+
+.skill-icon img {
+    width: 80px;
+    height: 80px;
+    border-radius: 20%;
+}
+
 
 .skill-card h3 {
     color: #000000;
@@ -628,9 +639,12 @@ main {
 .cta {
     text-align: center;
     padding: 4rem 0;
-    color: rgb(244, 224, 224);
+    color: rgb(77, 161, 213);
     border-radius: 10px;
     margin: 3rem 0;
+    box-shadow: 0 12px 12px black;
+    width: 800px;
+    margin: 0 auto;
 }
 
 .cta h2 {

@@ -262,7 +262,6 @@ main {
     justify-content: center;
     color: rgb(0, 0, 0);
     font-size: 1.5rem;
-    font-weight: bold;
 }
 
 .about-text h2 {
@@ -339,13 +338,15 @@ main {
     background-color: #2b6b9d97;
     padding: 2rem;
     border-radius: 10px;
-    box-shadow: 10px 5px 15px rgb(228, 235, 255);
+    
     text-align: center;
     transition: transform 0.3s;
 }
 
 .skill-card:hover {
     transform: translateY(-5px);
+    box-shadow: 10px 20px 10px rgba(15, 78, 155, 0.69);
+    transition: 1ms;
 }
 
 .skill-icon {
@@ -393,7 +394,7 @@ main {
 }
 
 .tool-badge {
-    background: rgb(33, 83, 157);
+    background: rgb(255, 255, 255);
     padding: 0.8rem 1.5rem;
     border-radius: 25px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.1);
@@ -402,9 +403,10 @@ main {
 }
 
 .tool-badge:hover {
-    background-color: #005bd2;
-    color: rgb(255, 255, 255);
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     transform: scale(1.05);
+    box-shadow: 2px 12px 10px rgb(255, 255, 255);
 }
 
 /* ===== PROJECTS PAGE ===== */
@@ -642,14 +644,18 @@ main {
 .cta {
     text-align: center;
     padding: 4rem 0;
-    color: rgb(77, 161, 213);
+    color: rgb(0, 0, 0);
     border-radius: 10px;
     margin: 3rem 0;
     box-shadow: 0 12px 12px black;
     width: 800px;
     margin: 0 auto;
     margin-top: 50px;
+    background-image: url(./img/ChatGPT\ Image\ Dec\ 27\,\ 2025\,\ 10_38_28\ PM.png);
+    opacity: 0.7;
 }
+
+
 
 .cta h2 {
     font-size: 2.5rem;
